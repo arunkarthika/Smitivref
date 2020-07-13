@@ -21,7 +21,7 @@ class MyCircleAvatar extends StatelessWidget {
         boxShadow: [
           BoxShadow(
               color: Colors.grey.withOpacity(.3),
-              offset: Offset(0, 2),
+              offset: Offset(0, 3),
               blurRadius: 5)
         ],
       ),

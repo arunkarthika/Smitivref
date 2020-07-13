@@ -4,6 +4,7 @@ class AudienceList{
   String username;
   String profilePic;
 
+
   AudienceList(this.userId,this.profileName, this.username,this.profilePic);
 
 }

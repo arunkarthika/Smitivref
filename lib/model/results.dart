@@ -9,7 +9,7 @@ void showResults(BuildContext context, PonyModel model) {
     context: context,
     builder: (BuildContext context) {
       return AlertDialog(
-        title: Text('Updated Results'),
+        title: Text('Updated Resultss'),
         content: SingleChildScrollView(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,

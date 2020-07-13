@@ -18,6 +18,7 @@ class CommonFun {
       String endPoint, String params, int woutauth) async {
     print(endPoint);
     print(params);
+
     String username = await CommonFun().getStringData('bearer');
     String password = await CommonFun().getStringData('token');
     print(username);
